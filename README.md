@@ -11,7 +11,7 @@ If visited[1], equals 1, then the shortest distance of vertex i is already known
  
 At each step, we mark visited[v] as 1. Vertex v is a vertex at shortest distance from the source vertex. At each step of the algorithm, shortest distance of each vertex is stored in an array distance[ ]
 
-Sample Input:
+# Sample Input:
 5
 
 0 10 0 30 100
@@ -22,7 +22,7 @@ Sample Input:
 
 0
 
-Sample Output:
+# Sample Output:
 
 Distance of node 1=10
 path =1<-0
@@ -33,6 +33,6 @@ path =3 <- 0
 Distance of node 4=60
 path =4 <- 2 <- 3 <- 0
 
-Group Members
+# Group Members
 Muhammad Zaid Waqar 15B-057-SE
 Sharukh Siddiqui 15B-050-SE
